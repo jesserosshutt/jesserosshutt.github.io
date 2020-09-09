@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1200px;
+	margin: auto;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+nav span {
+	font-size: 7.5vw;
+	margin-right: 1vw;
+}
+
+nav ul {
+	list-style: none;
+	padding-top: 1.2vw;
+	padding-bottom: 1.2vw;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 2.5vw;
+	margin-right: 50px;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+}
+
+@media (max-width: 1200px) {
+	body {
+		margin: 20px;
+	}
+}
+
+.main-article {
+	position: relative;
+	text-align: center;
+	color: white;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.main-article img {
+	width: 100%;
+	height: auto;
+}
+
+.main-article-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 5vw;
+}
+
+.main-article span {
+	position: absolute;
+	top: 62.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main-article a {
+	text-decoration: none;
+	color: white;
+	border: white 1px solid;
+	padding: 1vw;
+	letter-spacing: 0.25vw;
+	font-size: 1.5vw;
+}
+
+.main-article a:hover {
+	color: gray;
+	border: gray 1px solid;
+}
+
+.body-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.secondary-article {
+	width: 45%;
+	height: auto;
+	padding: 2vw;
+}
+
+.secondary-article img {
+	width: 95%;
+	height: auto;
+	margin-top: 0.5vw;
+	margin-bottom: 1.5vw;
+}
+
+.secondary-article-text {
+	font-size: 2.5vw;
+}
+
+.secondary-article span {
+	padding: 0px;
+	margin: 0px;
+}
+
+.secondary-article a {
+	text-decoration: none;
+	color: black;
+	border: black 1px solid;
+	padding: 1vw;
+	letter-spacing: 0.25vw;
+	font-size: 1vw;
+}
+
+.secondary-article a:hover {
+	color: gray;
+	border: gray 1px solid;
+}
+
+footer {
+	margin-top: 1vw;
+	margin-bottom: 3vw;
+}
+
+.footer-div {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+
+.name-col {
+	display: inline-block;
+}
+
+.name-col span {
+	display: block;
+	font-size: 5vw;
+}
+
+.navigation-col {
+	display: inline-block;
+}
+
+.navigation-col a {
+	display: block;
+	text-decoration: none;
+	font-size: 2vw;
+}
+
+.social-col {
+	float: right;
+}
+
+.social-col i {
+	font-size: 2.5vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+}
