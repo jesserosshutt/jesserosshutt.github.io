@@ -36,12 +36,12 @@ a:visited {
 	color: black;
 }
 
-a:hover {
-	color: gray;
-}
-
 li:visited {
 	color: black;
+}
+
+a:hover {
+	color: gray;
 }
 
 @media (max-width: 1200px) {
@@ -186,6 +186,10 @@ footer {
 	margin-left: 1vw;
 	margin-right: 1vw;
 	margin-top: 1vw;
+}
+
+.social-col i:visited {
+	color: black;
 }
 
 article img {
