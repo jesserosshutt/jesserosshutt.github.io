@@ -40,6 +40,10 @@ a:hover {
 	color: gray;
 }
 
+li:visited {
+	color: black;
+}
+
 @media (max-width: 1200px) {
 	body {
 		margin: 20px;
@@ -59,7 +63,7 @@ a:hover {
 	height: auto;
 }
 
-.main-article-number{
+.main-article-number {
 	position: absolute;
 	top: 38%;
 	left: 50%;
@@ -115,7 +119,7 @@ a:hover {
 	margin-bottom: 1.5vw;
 }
 
-.secondary-article-number{
+.secondary-article-number {
 	font-size: 2.5vw;
 	display: inline-block;
 }
@@ -184,31 +188,30 @@ footer {
 	margin-top: 1vw;
 }
 
-article img{
+article img {
 	width: 100%;
 	height: auto;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
 }
 
-article .half-size-img{
+article .half-size-img {
 	width: 50%;
 }
 
-article h1{
+article h1 {
 	font-size: 5vw;
 	margin-bottom: 2vw;
 }
 
-article h3{
+article h3 {
 	text-transform: lowercase;
 	font-size: 2vw;
 }
 
-article p{
+article p {
 	margin-bottom: 0.75vw;
 	text-transform: lowercase;
 	font-size: 2vw;
 	color: gray;
 }
-
