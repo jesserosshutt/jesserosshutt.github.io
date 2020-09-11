@@ -41,10 +41,6 @@ a:visited {
 	color: black;
 }
 
-li:visited {
-	color: black;
-}
-
 a:hover {
 	color: gray;
 }
@@ -176,10 +172,6 @@ footer {
 	display: inline-block;
 }
 
-.navigation-col:visited {
-	color: black;
-}
-
 .navigation-col a {
 	display: block;
 	text-decoration: none;
@@ -196,22 +188,6 @@ footer {
 	margin-left: 1vw;
 	margin-right: 1vw;
 	margin-top: 1vw;
-}
-
-i:visited {
-	color: black;
-}
-
-.social-col:visited {
-	color: black;
-}
-
-.social-col i:visited {
-	color: black;
-}
-
-.social-col a:visited {
-	color: black;
 }
 
 article img {
@@ -240,8 +216,4 @@ article p {
 	text-transform: lowercase;
 	font-size: 2vw;
 	color: gray;
-}
-
-.fa-instagram:visited {
-	color: black;
 }
