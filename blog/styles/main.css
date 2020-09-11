@@ -236,3 +236,7 @@ article p {
 	font-size: 2vw;
 	color: gray;
 }
+
+.fa-instagram:before{
+	color: black;
+}
