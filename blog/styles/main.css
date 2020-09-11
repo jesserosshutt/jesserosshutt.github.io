@@ -8,6 +8,7 @@ body {
 	margin: auto;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+	background-color: floralwhite;
 }
 
 nav span {
@@ -181,4 +182,27 @@ footer {
 	margin-left: 1vw;
 	margin-right: 1vw;
 	margin-top: 1vw;
+}
+
+article img{
+	width: 100%;
+	height: auto;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+article h1{
+	font-size: 5vw;
+}
+
+article h3{
+	text-transform: lowercase;
+	font-size: 2.25vw;
+}
+
+article p{
+	margin-bottom: 1vw;
+	text-transform: lowercase;
+	font-size: 2vw;
+	color: gray;
 }
