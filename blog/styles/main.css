@@ -58,6 +58,14 @@ a:hover {
 	height: auto;
 }
 
+.main-article-number{
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 5vw;
+}
+
 .main-article-text {
 	position: absolute;
 	top: 50%;
@@ -106,8 +114,14 @@ a:hover {
 	margin-bottom: 1.5vw;
 }
 
+.secondary-article-number{
+	font-size: 2.5vw;
+	display: inline-block;
+}
+
 .secondary-article-text {
 	font-size: 2.5vw;
+	display: inline-block;
 }
 
 .secondary-article span {
