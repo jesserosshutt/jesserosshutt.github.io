@@ -241,6 +241,6 @@ article p {
 	color: gray;
 }
 
-.fa-instagram:before{
+.fa-instagram:visited {
 	color: black;
 }
