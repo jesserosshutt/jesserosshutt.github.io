@@ -32,6 +32,10 @@ nav a {
 	margin-right: 50px;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:visited {
 	color: black;
 }
